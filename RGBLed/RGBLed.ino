@@ -12,7 +12,7 @@ ATtiny24/44/84 Pin map with CE_PIN 8 and CSN_PIN 7
                                   +----+
 */
 
-// CE and CSN are configurable, specified values for ATtiny85 as connected above
+// CE and CSN are configurable, specified values for ATtiny84 as connected above
 #define CE_PIN 9
 #define CSN_PIN 8
 
@@ -29,13 +29,14 @@ byte addresses[][6] = {"1Node","2Node"};
 unsigned long payload = 0;
 
 void setup() {
-	pinMode(red, OUTPUT);
-	pinMode(green, OUTPUT);
-	pinMode(blue, OUTPUT);
+	pinMode(redPin, OUTPUT);
+	pinMode(greenPin, OUTPUT);
+	pinMode(bluePin, OUTPUT);
 	
-	analogWrite(red, 255);
-	analogWrite(green, 255);
-	analogWrite(blue, 0);
+        // give LED an initial colour (partly to test that it is working)
+	analogWrite(redPin, 255);
+	analogWrite(greenPin, 255);
+	analogWrite(bluePin, 0);
 	
 	// Setup and configure rf radio
 	radio.begin(); // Start up the radio
