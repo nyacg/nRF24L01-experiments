@@ -1,4 +1,4 @@
-# Small experiments with the Nordic Systems nRF24L01+ radio transceivers 
+# Small experiments with the Nordic Semiconductor nRF24L01+ radio transceivers 
 
 The files here are a test project that I built to help me get to grips with the RF24 library on Raspberry Pi and on the embedded Arduino ATTiny84 chip.
 
