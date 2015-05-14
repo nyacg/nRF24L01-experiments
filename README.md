@@ -41,7 +41,7 @@ This will return a JSON object in the form `{ 'color': colorcode }` and set the 
 sudo npm start
 ```
 This requires all the depenancies to have been downloaded first and will currently launch using nodemon as this tracks file changes and restarts the server when one occours as this is useful for development. Once launched going to http://ip-address:3000 will start a web inteface with a colour picker that will set the colour as the user moves the dot or slider. 
-![Image of Colourpicker Interface](https://lh5.googleusercontent.com/nyAYx2R0I9-Czs5ehg4DxoFDCO3Iu4OU9xNPBgxjz1AxhZaS47fBDH28CuzdhIRm16hnDyit5_9QB-I=w1896-h859)
+![Image of Colourpicker Interface](https://lh5.googleusercontent.com/m6yHp4WkjkIA-XMyUXdAr-cMHStNJd_dJZOoapod2ypI4BByvSgw8E2RPYwOJAyoBJXOGy6-asBW7Gs=w1896-h859)
 
 
 The addresses are currently fixed and assigned in the code but they could easily be passed as a command line argument to control multiple nodes individually. 
